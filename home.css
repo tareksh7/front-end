@@ -1,0 +1,123 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para a navegação */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.2s;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav a.contact {
+  margin-left: auto;
+}
+
+/* Estilos para os botões de adicionar e remover */
+.products-menu {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.products-menu a,
+.products-menu button {
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.2s;
+  margin-right: 10px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para o botão "Sair" */
+#logout-button {
+  background-color: #FF4C29;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+#logout-button:hover {
+  background-color: #FF7046;
+}
+
+/* Estilos para os elementos de produto */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.produto {
+  width: 30%;
+  margin: 1%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.produto:hover {
+  transform: translateY(-5px);
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.produto h3 {
+  margin-top: 3px;
+}
+
+.comprar-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.comprar-link:hover {
+  background-color: #0069d9;
+}

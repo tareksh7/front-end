@@ -1,0 +1,42 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #008CBA; /* Azul claro, semelhante ao esquema de cores do login */
+    color: white; /* Texto em branco para contraste */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para o nome de usuário */
+#username-display {
+    font-weight: bold; /* Destacar o nome de usuário */
+    margin-right: 10px;
+    order: 2; /* Ordem 2 para alinhar à direita */
+}
+
+/* Estilos para o botão "Sair" */
+#logout-button {
+    background-color: #FF4C29; /* Vermelho, semelhante ao esquema de cores do login */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    order: 1; /* Ordem 1 para alinhar à esquerda */
+}
+
+#logout-button:hover {
+    background-color: #FF7046; /* Tom de vermelho mais claro no hover */
+}
+
+/* Estilos para a página principal */
+main {
+    padding: 2px;
+}
+
+/* Estilos para a mensagem de boas-vindas */
+#welcome-message {
+    font-size: 18px;
+    margin-top: 20px;
+}
